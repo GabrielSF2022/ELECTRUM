@@ -4,10 +4,14 @@
 
 .header
     background-color: variables.$bg-color
+    width: 100%
 
     &-top
         background-color: variables.$secondary-bg-color
         color: variables.$light-color
+
+        @include base-mixins.responsive
+            display: none
         
         &-container
             @include layouts-mixins.center-content
@@ -23,13 +27,21 @@
                 color: variables.$light-color
 
 .main-header
+    justify-content: center
+    text-align: center
 
     &-container
         @include layouts-mixins.center-content
         padding: 1.3rem 0
+        display: block
+        justify-content: center
+        text-align: center
 
         a, span, i
             color: #FFF
+            justify-content: center
+            justify-items: center
+            text-align: center
 
         #brand
             font-weight: 900
@@ -43,10 +55,13 @@
             display: flex
             align-items: center
             justify-content: center
-            width: 45%
+            text-align: center
+            width: 90%
+            padding-top: 20px
 
-            // input
-            //     height: 45px
+            @include base-mixins.responsive
+                width: 90%
+                padding-top: 20px
 
             #search
                 width: 60%
@@ -55,6 +70,13 @@
         .header-actions-menu
             display: flex
             align-items: center
+            justify-content: center
+            padding-top: 50px
+
+            @include base-mixins.responsive
+                padding-right:10px 
+                justify-content: center
+
 
             .wishlist-container, .header-cart-container
                 @include layouts-mixins.header-icon
@@ -64,11 +86,19 @@
     background-color: variables.$light-color
     border-bottom: 2px solid variables.$section-bg-color
     border-top: 3px solid variables.$primary-color
+    flex-wrap: wrap
 
     ul
         @include layouts-mixins.center-content
         justify-content: left
         padding: 1rem 0
+
+        @include base-mixins.responsive
+            justify-content: center
+
+        @include base-mixins.mobile
+            justify-content: left
+            padding: 1rem 0
 
         li
             margin-right: 1.3rem
