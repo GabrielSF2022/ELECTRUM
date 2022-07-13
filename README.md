@@ -1,10 +1,9 @@
-# <div align="center">📌AGENCY GSF
+# <div align="center">📌ELECTRUM
 <h1 align="center">PROJETO FEITO NO CURSO DE SASS E SCSS
 
-![Agency GSF - Google Chrome 2022-07-01 21-02-06](https://user-images.githubusercontent.com/97768716/176978929-5553133b-636b-4c91-9316-0405963fb08e.gif)
 
-  
-![Design_sem_nome__4_-removebg-preview](https://user-images.githubusercontent.com/97768716/176979435-39c5b9bd-7c4e-4ccc-a29b-a6f6f518a028.png)
+![Electrum E-commerce - Google Chrome 2022-07-13 14-20-31](https://user-images.githubusercontent.com/97768716/178793886-7bb13011-cb62-4b80-bd5d-c6dd5aa5f2f4.gif)
+![Design_sem_nome__4_-removebg-preview (1)](https://user-images.githubusercontent.com/97768716/178791406-9d9d65e7-4872-49a7-b5b2-cda391573af6.png)
 
 
 <h2 align="center">
